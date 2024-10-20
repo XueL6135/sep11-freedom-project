@@ -7,7 +7,7 @@
 ---
 (google docs)
 
-### 10/13/24:
+### 10/18/24:
 
 # Context
 I chose [p5play](https://p5play.org/) because of their easy to learn codes and the many things that you can do with p5play, they not only give you a [tinker tool](https://editor.p5js.org/) but also a whole list of things that you can learn from their page, from sprites to animations to their unique physics, which i find very cool considering i used to play around with google space a lot when i was little. So I started using their tinker tool and started to learn straight from their page.
@@ -43,13 +43,47 @@ function setup() {
   describe('A white circle with black outline in the middle of a gray canvas.');
 }
 ```
-10.15.24
+10.19.24
 ---
 In p5play they use:
 *.y for placing things on the y-axis
 *.w for how long the object will be
 *.h for putting in the height of the object
 -Sprites have dynamic physics as it allows the sprite to have the freely will to move but also get affected by its gravity and move straight down.
+
+* There was a problem that I couldn't figure out why my code didn't show up on my tinker, but I understood how their code works but I just don’t know why the tinker platform didn’t work.
+* I tried it on my IDE but I'm also having difficulties. I decided that enough time on trying to figure out one small thing. I decided to just do what I can do at my best.
+* Which is to try to read the entire code before I can try out some things, maybe there could be a solution to this.
+
+- Colliding with an object has many things you need to add for example floor.collider = 'static'; the floor.collider being another sprite and the static is which the colliders can’t be moved.
+- and then there's “kinematic” which colliders can be moved in this case.
+- But if we put “none” then the sprite will just go through the other sprite.
+- `world.gravity.y = -1;` is basically anti gravity because of the negative sign the physics don’t work the same but instead goes the other way.
+-`floor.**rotation**` = 2; allows the sprite to rotate a certain direction so that the sprite can move that direction (gravity)
+-`floor.**velocity.y**` = -1; From what i can see it rises the platform the sprite is on. By its velocity of -1
+
+I found out that even if the tinker tool goes wrong the website still has some practices for me to try at the end of each lesson of code.
+![image](https://github.com/user-attachments/assets/b47a260e-295c-4746-b597-3ede4589d979)
+
+**I think i may figure out**
+- I asked one of my friends and it turns out I was missing some code and that cause my tinkering board to not act properly so now i can freely tinker.
+- by adding:
+  ```
+  function draw() {
+	clear();
+}
+```
+This is needed at every end when adding sprites or animating them otherwise you can't make them appear or let them do anything, i learned that because i put my rest of the code in and it didn't show anything. Then i see that it needs the function draw for it to appear.
+making your sprite into different other things like a image you want isn't hard by using the `.image = '🥳';` you can = it to any kind of image you want, either from your assest or you can even put an emoji.
+
+![image](https://github.com/user-attachments/assets/971ae1a0-d854-41c8-a8fb-6b04bef4c207)
+
+p5play has alphebats that shape into different colors when you type a certain Alphabet one letter representing a pixel to color in
+![image](https://github.com/user-attachments/assets/a0c0847b-c684-426e-80d3-d896e8f48db5)
+
+you can always change the color of the alphabats too.
+![image](https://github.com/user-attachments/assets/3e8fb7a8-a9b8-492a-be8a-d381b98eb3e5)
+
 
 
 
