@@ -25,6 +25,8 @@ function draw() {
 ```
 The code above shows a canvas. with width and height of 300. using the function of draw it fills in the color of the canvas in this case i replaced it with the color "green". 
 
+![Screenshot 2024-10-20 10 38 30 AM](https://github.com/user-attachments/assets/4df45f0f-85c3-47ca-9976-a4ee658907de)
+
 
 
 
