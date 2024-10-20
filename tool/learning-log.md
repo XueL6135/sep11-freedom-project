@@ -1,12 +1,12 @@
 # Tool Learning Log
 
-## Tool: **X**
+## Tool: **p5play**
 
-## Project: **X**
+## Project: **Gato Gambler**
 
 ---
 
-### X/X/XX:
+### 10/20/24:
 * Text
 
 ### X/X/XX:
