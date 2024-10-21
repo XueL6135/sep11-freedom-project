@@ -68,11 +68,13 @@ I found out that even if the tinker tool goes wrong the website still has some p
 **I think i may figure out**
 - I asked one of my friends and it turns out I was missing some code and that cause my tinkering board to not act properly so now i can freely tinker.
 - by adding:
-  ```
+- 
+```
   function draw() {
 	clear();
 }
 ```
+
 This is needed at every end when adding sprites or animating them otherwise you can't make them appear or let them do anything, i learned that because i put my rest of the code in and it didn't show anything. Then i see that it needs the function draw for it to appear.
 making your sprite into different other things like a image you want isn't hard by using the `.image = '🥳';` you can = it to any kind of image you want, either from your assest or you can even put an emoji.
 
