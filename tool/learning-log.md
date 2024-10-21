@@ -85,7 +85,8 @@ you can always change the color of the alphabats too.
 ![image](https://github.com/user-attachments/assets/3e8fb7a8-a9b8-492a-be8a-d381b98eb3e5)
 
 
-* Text
+* These days time is of a essence and i could get most of these out of the website iteself the rest i need to sign up. for whats more i Might need to go to the [videos](https://youtu.be/ZQ23FHfgA0A?si=Vnx_i32bCbH6Mey3) that my friend showed me. its 30 minutes long but I think i can try...Since i know what I know what to do i'll continue my search tomorrow.
+
 
 
 <!--
