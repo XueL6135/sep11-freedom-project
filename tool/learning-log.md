@@ -7,7 +7,7 @@
 ---
 (google docs)
 
-### 10/18/24:
+### 10/19/24:
 
 # Context
 I chose [p5play](https://p5play.org/) because of their easy to learn codes and the many things that you can do with p5play, they not only give you a [tinker tool](https://editor.p5js.org/) but also a whole list of things that you can learn from their page, from sprites to animations to their unique physics, which i find very cool considering i used to play around with google space a lot when i was little. So I started using their tinker tool and started to learn straight from their page.
@@ -43,7 +43,7 @@ function setup() {
   describe('A white circle with black outline in the middle of a gray canvas.');
 }
 ```
-10.19.24
+10.20.24
 ---
 In p5play they use:
 *.y for placing things on the y-axis
@@ -85,13 +85,6 @@ you can always change the color of the alphabats too.
 ![image](https://github.com/user-attachments/assets/3e8fb7a8-a9b8-492a-be8a-d381b98eb3e5)
 
 
-
-
-
-
-
-
-### 10/???/24:
 * Text
 
 
