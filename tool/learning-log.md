@@ -88,6 +88,60 @@ you can always change the color of the alphabats too.
 
 
 * These days time is of a essence and i could get most of these out of the website iteself the rest i need to sign up. for whats more i Might need to go to the [videos](https://youtu.be/ZQ23FHfgA0A?si=Vnx_i32bCbH6Mey3) that my friend showed me. its 30 minutes long but I think i can try...Since i know what I know what to do i'll continue my search tomorrow.
+* 
+
+# Learning log
+
+10/27/24
+
+[Thevideo](https://youtu.be/XsTXsHxgWJc?si=a9HOemx9wk-jo5N2)
+Every objects in the p5play included its own mouse object
+And the mouse includes like either: hovering, being clicked on an object.
+
+‘’’
+If(block.mouse.hovering()) {
+mouse.cursor = ‘grab’;
+}
+else {
+mouse.cursor = ‘default’
+}
+‘’’
+
+This is the case of , if the cursor is hovering over the block sprite then the cursor will turn into a grab motion, if anything else then the cursor remains at default.
+There are a few things like the pointer cursor or the arrow cursor.
+
+‘’’
+If (block.mouse.dragging()) {
+ block.moveTowards(mouse.x,mouse.y, 1);
+}
+‘’’
+We use dragging to drag our sprites onto a different place.
+
+The function key pressed is important to know if the right or the left key is being pressed.
+
+‘’’
+function keypressed() {
+Ball.x = new sprite();
+Ball.y = -50
+Ball.diameter = 40
+}
+‘’’
+
+By pressing on keys you can make any ball appear
+The default objects in p5play will rotate when objects hit them.
+You can change it by:
+
+‘’’
+Block.rotationLock = true;
+‘’’
+
+It’s going to make the sprite of whichever you want stop moving or rotating whenever an object hits it.
+But the more objects that get on to the sprite the sprite will lower as it gets too heavy.
+Kinematic will affect the others but not the sprite.
+
+
+
+
 
 
 
