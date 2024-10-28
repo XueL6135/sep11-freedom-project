@@ -1,7 +1,10 @@
 # Entry 1
-##### X/X/XX
+##### 10/28/24
 
-Text
+(Explaining my tool)
+(How it will go along with our project)
+(how the process works)
+
 
 [Next](entry02.md)
 
