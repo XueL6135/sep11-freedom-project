@@ -110,11 +110,11 @@ mouse.cursor = ‘default’
 This is the case of , if the cursor is hovering over the block sprite then the cursor will turn into a grab motion, if anything else then the cursor remains at default.
 There are a few things like the pointer cursor or the arrow cursor.
 
-‘’’
+```
 If (block.mouse.dragging()) {
  block.moveTowards(mouse.x,mouse.y, 1);
 }
-‘’’
+```
 We use dragging to drag our sprites onto a different place.
 
 The function key pressed is important to know if the right or the left key is being pressed.
@@ -130,6 +130,7 @@ Ball.diameter = 40
 By pressing on keys you can make any ball appear
 The default objects in p5play will rotate when objects hit them.
 You can change it by:
+
 ```
 Block.rotationLock = true;
 ```
