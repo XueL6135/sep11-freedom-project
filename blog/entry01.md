@@ -2,8 +2,11 @@
 ##### 10/28/24
 
 # Context 
+This year while were doing javascript, The first thing that came to my mind was "a game", a game that i enjoy and also create. One example of the game idea that came ot my mind was "Genshin", its a gme that both inpspired me and some of my friends to actually think of the game and actually make it. genshin is a type of game that reflects on collecting, and grinding for your favorite characters, the more you grind in the game the more possibility that you can collect your characters.
 
-For our year long project this year i decided that This time since we are learning javascript and i would see this opportunity to use javascript to create a game that me and my friends are all passionate about, and that the game that we are creating not only spreading awareness on the impacts of it to teenage society but also help us understand the game itself and on how it was created based on also other game that inspired us to do so.  Me and Katee are working on the game of part B while Qilin and Ellen work on Part A of the game which that way makes it easier for us to code then put the pieces together.
+so for this year's freedom project me, katee,Ellen, and Qilin decided that we should do a game based on the sysytem. were going to create a cat game which involves the basics like collecting and grinding. the user spends the cat food to obtain differnt types/rarity of the cats ranging from R(rare), SR(super rare), SSR(super super rare). since the game has two parts we decided to seperate the two parts. One focuses on collecting the cat food. one focuses on making the system to use the collecting cat food to spend on the different types of cats. So me and katee are doing the system while Qilin and ellen are working on the cat food.
+
+we wanted to not only do our part but also overall help out with the whole game, there will be a total of 15 cats and me, katee, ellen are going to split up and draw all of the cats digitally and by hand. **Part A** will be about collecting cat food as informed and it will be about the user collecting the cat food with certain obstacles in their way and **part B** is the system is when the player uses the collected cat food they are getting from part A to get the different types of cats.
 
 ## Tool
 
