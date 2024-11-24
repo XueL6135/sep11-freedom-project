@@ -26,8 +26,8 @@ Our Engineering process right now is that we are still planning out the layout o
 
 # Skills
 
-Right now the biggest thing we need to focus on is on communication because some of us have different classes that they need to work on and to study for so they are extra busy. We need to check up on each other so that we know what we are doing and if the other party needs help with something. (we have discord for that)
-
+Right now the biggest thing we need to focus on is on **communication** because some of us have different classes that they need to work on and to study for so they are extra busy. We need to check up on each other so that we know what we are doing and if the other party needs help with something. (we have discord for that)
+And since right now we are only planning we want to get the things we can get done first which is the skill of **art**. Not only we want our game to code nicely we also wanted it to look nice. we decided to split the draiwngs, three of us will do the drawing by dividing the work by 5 cats each.
 
 [Next](entry02.md)
 
