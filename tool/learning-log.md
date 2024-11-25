@@ -140,7 +140,41 @@ But the more objects that get on to the sprite the sprite will lower as it gets 
 Kinematic will affect the others but not the sprite.
 
 11/24/24
+
 ![Screen recording 2024-11-24 9 14 10 PM](https://github.com/user-attachments/assets/b9bc2a3f-5e9c-426a-bd8d-e8f985b7dc1c)
+
+Along with learning my tool i find `mouse.pressed()` to be very amusing as whenever i click on my canvas the sprite just  seems to appear and by changing the gravity of the y value by 5 `world.gravity.y = 5` the sprite falls from middle to bottom. but to change that i can use the `sprite.y` function to make it move starting from a certain place.
+
+![Screen recording 2024-11-24 9 19 44 PM](https://github.com/user-attachments/assets/57a69d3e-ecb2-43d8-9114-76c80a529f56)
+
+we can do this by using making the new sparks.Sprite as a variable and by using that as a vairle such as `let s = sparks.Sprite` we can use the vairble as `s.x = mouse.x` and `s.y = nouse.y` which causes whats above which is where ever i click my mouse nis where wver ill spawn a sprite.
+or
+we can use a function and that can help us store our x values.
+![image](https://github.com/user-attachments/assets/45e2b3ff-f807-489a-a8a9-5696f5c06b94)
+But **OR** we can use 
+the `arrow function` which is a function that does the same thing but makes our life with coding a tiny bit easier. `() => mouse.y/x`
+![image](https://github.com/user-attachments/assets/ccca5d60-cee3-4831-897f-b6d5dc13d65c)
+
+The meaing of `  sparks.life = () => random(30,100)` mostly random is to move it from the between of these two numbers for example from 30-100, is what it will mean.
+
+![Screen recording 2024-11-24 9 37 16 PM](https://github.com/user-attachments/assets/d887f3d6-bcbc-4a1a-b182-6826efcb3249)
+
+i tried and played around to see if i can let my mouse whenver it is clicked it can spawn the sprites anywhere it wants randomly.
+
+`sprites.amount` is pretty cool too as if the sprite amount is lower then the number for example 50 it will go as much as 50 and with one click you can have a lot of sprites:
+![Screen recording 2024-11-24 9 41 19 PM](https://github.com/user-attachments/assets/5b0bba8c-6432-487d-8814-14d2a5312a7b)
+but since i used random for my sprite.x/y when i click it, its everywhere.
+
+`mouse.pressing` is when ever your mouse go, your sprite will go where ever your mouse go.
+
+![Screen recording 2024-11-24 9 56 59 PM](https://github.com/user-attachments/assets/7941cd90-5a92-4732-a7d2-82117f19237d)
+this is the end result of how i did it, moslty is because i played around with it and changed up some thigns that weren't followed in the video.
+
+[video source](https://youtu.be/0t0xyBew5BQ?si=TWRl6oznhcPOXEqm)
+
+
+
+
 
 
 
