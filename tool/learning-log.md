@@ -140,8 +140,7 @@ But the more objects that get on to the sprite the sprite will lower as it gets 
 Kinematic will affect the others but not the sprite.
 
 11/24/24
-https://objects.githubusercontent.com/github-production-release-asset-2e65be/8424040/8b210fab-4c9a-4d5e-9a08-0525b569baea?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241125T015143Z&X-Amz-Expires=300&X-Amz-Signature=605a03f8e95f83b8054133a9576247cf803d127e7984f4698f04b4b0d1c7c0cf&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dp5.min.js&response-content-type=application%2Foctet-stream
-
+![Screen recording 2024-11-24 9 14 10 PM](https://github.com/user-attachments/assets/b9bc2a3f-5e9c-426a-bd8d-e8f985b7dc1c)
 
 
 
