@@ -173,6 +173,34 @@ this is the end result of how i did it, moslty is because i played around with i
 [video source](https://youtu.be/0t0xyBew5BQ?si=TWRl6oznhcPOXEqm)
 
 
+12.8.24- motion
+taking notes on the [video](https://www.youtube.com/watch?v=qBt_w3SELnw)
+- `if(kb.pressing("left"))ship.rotation -=2;`
+- `if(kb.pressing("right"))ship.rotation +=2;`
+If the `kb` short for "keyboard" pressing down on the left/right key then the ship will rotate about -= and +=  by 2.
+
+- using `applyForce` we can increase the amount of movement
+  `ship.bearing = ship.rotation + 90;
+  `sprite.applyForce(-30);
+- the output would have been if any mouse kep is pressed the sprite should move to a random place with no gravitational pull.
+
+-Bahavior changes
+ - if (sprite.x > width + ship.w/2) sprite.x = -sprite.h/2
+the sprite will run smoothly between screens.
+
+- if you want to upload your image into the animation you use
+  ```
+   function preload(){
+  sprite = loadimage("sprite.png")
+  }
+  ```
+theres then `sprite.drag = 1` where it applies the resistance to the ship's movement when you drag it
+
+giving the spite(speed)
+`sprite.speed = () => random(4,5)` with a between speed of 4 and a 5.
+ 
+
+    
 
 
 
