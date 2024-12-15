@@ -198,6 +198,16 @@ theres then `sprite.drag = 1` where it applies the resistance to the ship's move
 
 giving the spite(speed)
 `sprite.speed = () => random(4,5)` with a between speed of 4 and a 5.
+
+12.14.24
+
+`thing.bearing = thing.rotation + 90` with bearing you can make your sprites go float anywhere like no gravity
+
+[Screen recording 2024-12-14 10.07.56 PM.webm](https://github.com/user-attachments/assets/eb0758d4-6a2a-4a02-aee4-3091598f5068)
+
+see how the emoji floats smoothly?
+
+
  
 
     
