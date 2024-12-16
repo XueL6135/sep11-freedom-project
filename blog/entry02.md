@@ -35,13 +35,7 @@ For our next step i was hoping to get our process to learn the code done and wer
 
 # skills
 
-## 1
-
-since we need to finish upn our art design process we need all the creativity we can get to finish the drafts.
-
-## 2 
-
-we also need to make sure that we stay focused on task with also our other classes and hopefully we can multitask maybe but all we need is right now is to lock in and focus on our work.
+since we need to finish upn our art design process we need all the **creativity** we can get to finish the drafts and complete them before the end of the winter break.we also need to make sure that we stay **focused** on task with also our other classes and hopefully we can multitask maybe but all we need is right now is to lock in and focus on our work, then we can start with our code.
 
 
 
