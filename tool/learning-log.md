@@ -234,6 +234,29 @@ new Canvas( 435, 213, "pixelated")
 - by using image double times and `+ width` the image can go on like a loop
   [Screen recording 2025-01-01 11.42.24 PM.webm](https://github.com/user-attachments/assets/dbc7b1b7-2054-48ac-b7fc-4a8473122adc)
   - the if statement is when for when the image goes too far then it will come back.
+  - of course you don't have to move it that fast you can always slow it down `bearX -= 0.7` it will move to another frame slower
+  - we can also do a neat little trick if theres gaps in your images we can use `int(bearX)` to make it so that the two images won't have a loose gap between them if they have in which my case my bear is a png so it doesn't really have something like a gap. the "int: is like a decimal of a integer and it can mvoe by one pixel by one pixel. (just make nsit look and move nicer)
+ 
+  - in case we want to make different layers on top of backergrounds at different speed on its own we can make a array and underneath we do some data as it prescribes. (the code below is not mine i copied it form the video and its to just show the code and later on i'll come to use it) as a example.
+    ```
+    let layers = [
+    {
+    file: ".png",
+    img: undefined,
+    x: 0,
+    speed: 0.5,
+    }
+    ]
+    ```
+    function loop fro each layer:
+    ```
+    for (let layer of layers) {
+    image(layers.img, int(layer.x), 0);
+    image(layers.img, int(layer.x) + width, 0);
+    layer.x -= layer.speed;
+    if (layer.x < -width) layer.x = 0;
+    }
+    ```
 
 
 
