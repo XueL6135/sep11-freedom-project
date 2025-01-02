@@ -207,6 +207,37 @@ giving the spite(speed)
 
 see how the emoji floats smoothly?
 
+12/31/24
+
+[video](https://www.youtube.com/watch?v=1IzFWpSK5SE](https://www.youtube.com/watch?v=boyuLp3T9NI) - Background
+
+- you set up the canvas to whatever your imagen is by either 435 x 213 or 579 x 290 either one and pixelated since the background is by pixels.
+```
+new Canvas( 435, 213, "pixelated")
+```
+- note while i was using my code in the IDE i tried to figure out why my image wasn't loading even though i did everything right its because that i ending my code with a : and not a ; and that single colon was the porblem.
+
+![Screenshot 2025-01-01 11 20 29 PM](https://github.com/user-attachments/assets/d7e56723-12d7-4d20-b96c-2d159a21dea8)
+![Screenshot 2025-01-01 11 20 50 PM](https://github.com/user-attachments/assets/f6cfab67-e1b1-4358-9909-7dc2f201c1c5)
+
+- the higher the number the faster the imag drags around you
+```
+    catidem.moveTo(mouse, 10);
+```
+[Screen recording 2025-01-01 11.27.57 PM.webm](https://github.com/user-attachments/assets/a22c32fb-6529-4abb-8ff2-67b055890348)
+
+- of course if you don't want to see your mouse on the screen you can use
+  `mouse.visible = false;`
+- using `image(.png, 0, 0);` you can paste your image like a layer of the background with more layers.
+
+![Screenshot 2025-01-01 11 41 21 PM](https://github.com/user-attachments/assets/65cf6eb1-af4e-4128-b61e-d40ba06bb4ec)
+- by using image double times and `+ width` the image can go on like a loop
+  [Screen recording 2025-01-01 11.42.24 PM.webm](https://github.com/user-attachments/assets/dbc7b1b7-2054-48ac-b7fc-4a8473122adc)
+  - the if statement is when for when the image goes too far then it will come back.
+
+
+
+
 
  
 
