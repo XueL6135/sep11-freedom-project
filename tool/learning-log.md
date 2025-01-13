@@ -257,9 +257,26 @@ new Canvas( 435, 213, "pixelated")
     if (layer.x < -width) layer.x = 0;
     }
     ```
+1.12.25
 
+[Screen recording 2025-01-12 9.52.56 PM.webm](https://github.com/user-attachments/assets/55a4a199-fc01-4ab7-bde9-efedb88d2a23)
 
+animation(complete)
 
+```
+let player
+let catman
+
+funtion preload(){
+
+ catman = loadAnimation(["Untitled86_20250112213346.png","Untitled86_20250112213340.png","Untitled86_20250112213336.png", "Untitled86_20250112213328.png", "IMG_2599.png"])
+}
+
+function setup(){
+ player = new Sprite();
+
+  player.addAni(catman);
+}
 
 
  
