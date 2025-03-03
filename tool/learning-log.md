@@ -286,8 +286,10 @@ function setup(){
 
 - The drawing was my own and i used 3 layers to make like a sort of scenary i first wanted to make the bees move along the clouds but found that too boring so i made it monve whne you drag your mouse.
 
+
+
 ```
-et cloudsImg
+let cloudsImg
 let cloudsX = 0
 
 let beesImg
