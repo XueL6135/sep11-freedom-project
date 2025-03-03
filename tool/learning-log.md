@@ -278,6 +278,56 @@ function setup(){
   player.addAni(catman);
 }
 
+3.2.25
+
+- I tried out some more backgrounds and i used more of my images and i made it one of the images move on mouse, (its like a background with flying bees)
+
+[Screen recording 2025-03-02 10.18.15 PM.webm](https://github.com/user-attachments/assets/44a7af57-a83c-4f44-93ec-671fab689610)
+
+- The drawing was my own and i used 3 layers to make like a sort of scenary i first wanted to make the bees move along the clouds but found that too boring so i made it monve whne you drag your mouse.
+
+```
+et cloudsImg
+let cloudsX = 0
+
+let beesImg
+let bees
+//let beesX = 0 // making a variable like this helps when you need it at a specific position
+
+function preload() {
+  cloudsImg = loadImage("IMG_2816.png")
+  beesImg = loadImage("IMG_2818.png")
+}
+
+function setup() {
+  new Canvas(3000,3000, 'pixelated' )
+
+  bees = new Sprite()
+  bees.image = beesImg
+
+  mouse.visible = true // (just shows your curser you can make it false and make it invisible)
+}
+
+function draw()
+{
+  background('skyblue')
+
+  bees.moveTo(mouse, 2) // simple code to make the sprite go with the mouse
+  // bees
+  /*image(beesImg, int(beesX), 0); //(i wanted to made it move but then i chnaged my mind)
+  image(beesImg, int(beesX) + width, 0);
+  beesX -=0.7;
+  if(beesX < -width) beesX = 0;
+  */ // (which you put which code first actually determinds what goes first and the layer will go behind from there)
+// clouds
+  image(cloudsImg, int(cloudsX), 0);
+  image(cloudsImg, int(cloudsX) + width, 0);
+  cloudsX-= 1.2;
+  if(cloudsX < -width) cloudsX = 0;
+}
+
+```
+
 
  
 
