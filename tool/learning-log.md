@@ -288,8 +288,7 @@ function setup(){
 
 
 
-```
-let cloudsImg
+``` let cloudsImg
 let cloudsX = 0
 
 let beesImg
@@ -326,9 +325,7 @@ function draw()
   image(cloudsImg, int(cloudsX) + width, 0);
   cloudsX-= 1.2;
   if(cloudsX < -width) cloudsX = 0;
-}
-
-```
+} ```
 
 
  
