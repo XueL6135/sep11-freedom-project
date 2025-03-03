@@ -285,7 +285,7 @@ function setup(){
 
 [Screen recording 2025-03-02 10.18.15 PM.webm](https://github.com/user-attachments/assets/44a7af57-a83c-4f44-93ec-671fab689610)
 
-- The drawing was my own and i used 3 layers to make like a sort of scenary i first wanted to make the bees move along the clouds but found that too boring so i made it monve whne you drag your mouse.
+- The drawing was my own and i used 3 layers to make like a sort of scenary i first wanted to make the bees move along the clouds but found that too boring so i made it move when you drag your mouse.
 
 
 
