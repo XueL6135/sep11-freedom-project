@@ -329,9 +329,54 @@ function draw()
   if(cloudsX < -width) cloudsX = 0;
 }
 ```
+3.9.25- gamestate
+
+-game state is a function that allows you to swtich to different screens like almost
+
+ [Screen recording 2025-03-09 9.48.16 PM.webm](https://github.com/user-attachments/assets/15dc3242-9230-4aab-a452-55683cac7c02)
 
 
- 
+```
+ let gameState = 'intro'
+
+function setup() {
+  new Canvas(3000,3000, 'pixelated' )
+}
+
+function preload(){
+  catimg = loadImage("catcough.jpg")
+}
+
+function draw(){
+
+  if(gameState == "intro") intro();
+  if(gameState == "runGame") runGame();
+}
+
+function intro(){
+ background ("skyblue");
+
+ fill('black')
+ textAlign(CENTER);
+ textSize(100)
+ text("gato gambler", width/2, height/2-100)
+ // the text, the width and how where its going to go, -100 means to the left, -100 for height means moving the text upwards.
+
+ fill('black')
+ textSize(72)
+ text("click", width/2, height/2)
+
+ if (mouse.presses()){
+  gameState = "runGame";
+ }
+}
+
+function runGame(){
+  background(catimg);
+}
+```
+clicking on the screen makes it goes to another screen where that action happens and thnat is really useful when running games that needs a intro screen that moves on to the actual game.
+
 
     
 
