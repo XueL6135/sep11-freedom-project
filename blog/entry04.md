@@ -96,13 +96,15 @@ the different functions serves as a different screen and what it does on that sc
 so right now towards our mvp by using gamestats i want to make a sort of home screen so when you press the button you can enter the system and that can store all yor data, in whic you will use the ¨data and use it to exchange for stuff.
 
 # EDP
-Right now We are pretty much done with learning with our tool , and i want to start on our MVP now, and the onyl thing we are missing is the score board and how we can be able to transfer the data from another game screen, and use that to make our currency that we are going to use, but other then that we are probably good to go on the rest by making the system, so i plan a (math.random) to do the job for the ¨gacha system¨ and how the rarity is going to go for, for each section, so we need different arrays for that and each array is going to have a math.random, but first we need to use math.random for selecting a random array out of the arrays, with a specific rarity.
+In the next step of my Engineering Design Process. Now we are pretty much done with learning with our tool, and I want to start on our MVP now, and the only thing we are missing is the score board and how we can be able to transfer the data from another game screen, and use that to make our currency that we are going to use, I also plan to recheck all the pngs that we have to see if we have anything missing and double-check our materials. But other than that, we are probably good at going on the rest of making the system, so I plan a (math.random) to do the job of the ¨gacha system¨ and how the rarity is going to go for, for each section, so we need different arrays for that and each array is going to have a math.random, but first we need to use math.random for selecting a random array out of the arrays, with a specific rarity.
   
 # skills
 
-### planning 
--Is important to use as it involves a lot of going in and out and in and keeping track of the percentage of rarities and how we are going to calculate this. I would not reccommend myself plannig this on code becuase i feel like there will be errors and it will just create mroe errors so i want to plan this out on paper and how the code is going to go. 
+**planning**
+Is important to use as it involves a lot of going in and out and in and keeping track of the percentage of rarities and how we are going to calculate this. I would not reccommend myself plannig this on code becuase I feel like there will be errors and it will just create mroe errors so I want to plan this out on paper and how the code is going to go. 
 
+**communicating**
+Since we are oing to start our MVP we need to communicate either through text or speech, we chose the way to text so that it is better for us to hop on call when theres a bug and we can shoow each other's screen clearly and give tips on each of our code. Commincation is KEY in code.
 
 
 
