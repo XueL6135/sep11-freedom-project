@@ -399,9 +399,81 @@ userStartAudio()
 `sprite.loop()`- To loop the music so once its done playing it will play over and over again.
 `userStartAudio()`- the audio will only start once the user interacts with the screen(I don know how to make it auto still trying to figure that out)
 
-example of the background music:
+- i tried to record it but the background music won come on so i can only show the code
 
-[Screen recording 2025-03-23 10.45.01 PM.webm](https://github.com/user-attachments/assets/eac104c9-0804-4c33-a34c-510964e0898a)
+```
+let bgimg
+let canX = 750
+let canY = 750
+
+let MuellerSUnimg
+
+let cloudsImg
+let cloudsX = 0
+
+let flowerimg
+let flowersX = 0
+
+let frenchsound
+
+function preload() {
+  cloudsImg = loadImage("Untitled91_20250323163514.png")
+  flowerimg = loadImage("Untitled91_20250323163509.png")
+  bgimg = loadImage("Untitled91_20250323163504.jpeg")
+  MuellerSUnimg = loadImage("Untitled91_20250323163520.png")
+
+  soundFormats("mp3")
+  frenchsound = loadSound("PeriTune_Alleyway-chosic.com_.mp3")
+
+}
+
+function setup() {
+  new Canvas(canX ,canY, )
+  MuellerSUnimg.resize(canX, canY)
+
+  bgimg.resize(canX, canY)
+  flowerimg.resize(canX, canY)
+  cloudsImg.resize(canX, canY)
+
+  backgroundMusic();
+}
+
+function backgroundMusic(){
+  frenchsound.play();
+  frenchsound.loop();
+  frenchsound.setVolume(1);
+  userStartAudio()
+}
+
+
+
+function draw()
+{
+  background(bgimg)
+
+  // sun
+  image(MuellerSUnimg, 0 ,0 )
+  /*MuellerSUnimg.rotation = 90;
+  MuellerSUnimg.rotationSpeed = 1; */
+
+
+  // flowers
+  image(flowerimg, flowersX, 0);
+  image(flowerimg, flowersX + width, 0);
+  flowersX -= 2;
+  if(flowersX < -width) flowersX = 2;
+
+// clouds
+  image(cloudsImg, cloudsX, 0);
+  image(cloudsImg, cloudsX + width, 0);
+  cloudsX-= 2.5;
+  if(cloudsX < -width) cloudsX = 0;
+}
+```
+[Screen recording 2025-03-23 10.47.41 PM.webm](https://github.com/user-attachments/assets/d83469b2-2c84-4ba6-bc88-3aceb02aba04)
+
+this is the full output but you cant hear the music because apparently it doesn record the audio
+
 
 
 
