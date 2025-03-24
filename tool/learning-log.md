@@ -377,6 +377,36 @@ function runGame(){
 ```
 clicking on the screen makes it goes to another screen where that action happens and thnat is really useful when running games that needs a intro screen that moves on to the actual game.
 
+3/23/25
+
+# background music 
+
+- in order to insert a music for your background you will need to find a mp3 music to download and put it into your files.
+  The following code you will need:
+
+```
+loadSound()
+sprite.play()
+sprite.setVolume()
+sprite.loop()
+userStartAudio()
+
+```
+
+`loadSound`- helps with loading the sound file your using you put this in the `function preload`
+`sprite.play()`- is what allows the music to play
+`sprite.setVolume()`- is to set the volume of the music if its too high
+`sprite.loop()`- To loop the music so once its done playing it will play over and over again.
+`userStartAudio()`- the audio will only start once the user interacts with the screen(I don know how to make it auto still trying to figure that out)
+
+example of the background music:
+
+[Screen recording 2025-03-23 10.45.01 PM.webm](https://github.com/user-attachments/assets/eac104c9-0804-4c33-a34c-510964e0898a)
+
+
+
+
+
 
     
 
