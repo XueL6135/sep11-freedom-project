@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+    <script src="https://q5js.org/q5.js"></script>
+
+<script src="https://p5play.org/v3/planck.min.js"></script>
+<script src="https://p5play.org/v3/p5play.js"></script>
+
+  </head>
+  <body>
+    <main>
+    </main>
+    <script>
+let bgimg
+let canX = 750
+let canY = 750
+
+let MuellerSUnimg
+
+let cloudsImg
+let cloudsX = 0
+
+let flowerimg
+let flowersX = 0
+
+let frenchsound
+
+function preload() {
+  cloudsImg = loadImage("Untitled91_20250323163514.png")
+  flowerimg = loadImage("Untitled91_20250323163509.png")
+  bgimg = loadImage("Untitled91_20250323163504.jpeg")
+  MuellerSUnimg = loadImage("Untitled91_20250323163520.png")
+
+  // soundFormats("mp3")
+  frenchsound = loadSound("PeriTune_Alleyway-chosic.com_.mp3")
+
+}
+
+function setup() {
+  new Canvas(canX ,canY, )
+  MuellerSUnimg.resize(canX, canY)
+
+  bgimg.resize(canX, canY)
+  flowerimg.resize(canX, canY)
+  cloudsImg.resize(canX, canY)
+
+}
+
+function mousePressed(){
+  frenchsound.play();
+  frenchsound.loop();
+  frenchsound.setVolume(1);
+  userStartAudio()
+}
+
+
+
+function draw(){
+  background(bgimg)
+
+  // sun
+  image(MuellerSUnimg, 0 ,0 )
+  MuellerSUnimg.rotation = 90;
+  MuellerSUnimg.rotationSpeed = 1;
+
+
+  // flowers
+  image(flowerimg, flowersX, 0);
+  image(flowerimg, flowersX + width, 0);
+  flowersX -= 2;
+  if(flowersX < -width) flowersX = 2;
+
+// clouds
+  image(cloudsImg, cloudsX, 0);
+  image(cloudsImg, cloudsX + width, 0);
+  cloudsX-= 2.5;
+  if(cloudsX < -width) cloudsX = 0;
+}
+
+
+
+
+
+    </script>
+
+
+
+
+  </body>
+</html>
