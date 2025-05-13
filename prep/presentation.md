@@ -1,19 +1,24 @@
 # Presentation Plan
 
 ## Hook
-* in a question starting off on similar interests that people would like to answer. (do you like () )
+* in a question starting off on similar interests that people would like to answer. (Who ever here has gambled? it coul be anything)
 
 ## Product
 * we will show it off by giving it a quick demo and how it works/explaing the simple steps
 
 ## Process
 * giving off the tools that we used
-* using the tools to explain how we adchieve the product that we intended it to
+   -the videos that we watched (with links)
+  - tinkering with the code in our IDE along with the video
+* using the tools to explain how we adchieve the product that we intended it
 * the struggles
 
   -code-
-* giving code snippits and screenshots on the slides sowing some of the code that we did over our freedom project
-* breaking it down the code into sections
+* giving code snippits and screenshots on the slides sowing some of the code that we did over our freedom
+ - the code that includes the MVP code snippits of the main, the (main features) that allows the game to function
+   - showing the conditionals(what happens if you press on a certain button or touch)/ arrays(the list of sprites)
+ - explaining the little tiny bugs that we encountered along the way and how we solved them
+* breaking it down the code into sections and explaining in plain english how esch line works
 
 ## Conclusion
 * (URL to project)
