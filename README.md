@@ -8,15 +8,18 @@ For my project, I chose to independently study **p5play** in order to help me ma
 
 ## Links
 
-[Product]()
+[Product](https://kateek5417.github.io/sep11-cat-project/)
 
-[Presentation]()
+[Presentation](https://docs.google.com/presentation/d/1kNJ3U2zIFahoc7eQWihP7v_bDOIq0wE5Y6k-PR0tRYw/edit?slide=id.g357ea61c767_0_6#slide=id.g357ea61c767_0_6)
 
 ## Implications
 ##### PROS
-* 
+* our game shows awareness that in real life something like the "gambling" system
+* Our game minimize the factors of it and makes it more so that the users don't have to spend their own pocket money
+* the game shows that you have to work for something that you want.
 ##### CONS
-* 
+* although it is a game, it might get addicting because of the system and you wanna do it over and over and over again.
+* it's the game itself is sort of toxic as it shows the gambling system and just how life can revolve around it.
 
 
 ## Blog
