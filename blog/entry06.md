@@ -12,6 +12,11 @@ As always, just as last year, it feels really sort of nervous to percent in fron
 
 and as always, I feel like whatever you're [presenting](https://docs.google.com/presentation/d/1kNJ3U2zIFahoc7eQWihP7v_bDOIq0wE5Y6k-PR0tRYw/edit?slide=id.g357ea61c767_0_6#slide=id.g357ea61c767_0_6) will match your presentation speech and how it connects to you.
 
+# EDP
+Right now, our engineering design process is rightfully done and to summarize it we used a lot of things for it such as our time and effort, our tools the tools that were used outside, and I don't think any further implication should be added or deleted, unless discussed with my teammates. Who knows we might come back to the future and look beyond it and maybe we can use that for future inspirations.
+
+
+
 [Previous](entry05.md) | [Next](entry07.md)
 
 [Home](../README.md)
