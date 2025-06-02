@@ -15,7 +15,10 @@ and as always, I feel like whatever you're [presenting](https://docs.google.com/
 # EDP
 Right now, our engineering design process is rightfully done and to summarize it we used a lot of things for it such as our time and effort, our tools the tools that were used outside, and I don't think any further implication should be added or deleted, unless discussed with my teammates. Who knows we might come back to the future and look beyond it and maybe we can use that for future inspirations.
 
-
+# skills
+- **loud voice** having a loud voice releases to help with having project out our voice and during class presentations and doing the expo presentations as it helped with a lot of things to make people understand you more clearer and help to know what you're presenting.
+- **body language** was another skill that we needed because in order to help audience engage and understand we need to show them what they're looking at for for example we can point to a certain word or a code that we might try to explain or we can try help them imagine visuals about what we had experienced.
+- **eye contact** is very important because during presentations you want your audience to look at you not directly, but you wanna give your audience a glance, sometimes there and there so that you can connect with your audience because the player of the presentation is to get them engaged in your product so you don't lose them by using eye contact you can help pulling in your audience better.
 
 [Previous](entry05.md) | [Next](entry07.md)
 
